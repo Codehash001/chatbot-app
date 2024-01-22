@@ -47,7 +47,7 @@ export default function Cards(subjectName:any) {
     <h1 className="text-center font-bold text-3xl">{subjectName.subjectName}</h1>
     <ScrollShadow hideScrollBar  className="h-[600px] grid grid-cols-3 p-5 items-start justify-start">
       {notesData && notesData.map((note : any , index:number) => (
-                    <Card className="p-4 m-2">
+                    <Card className="p-4 m-2" key={index}>
                     <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
                       <h1 className="font-bold text-lg">{note.notename}</h1>
                       <small className="text-default-500">{note.description}</small>
