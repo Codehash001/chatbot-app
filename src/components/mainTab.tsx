@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import UploadFile from './UploadFiles';
-import RichTextEditor from './richTextEdiror';
 import Chatwindow from './chatWindow';
 import ChatwindowUI from './Chatwindowui';
 import Description from './projectDescription';
